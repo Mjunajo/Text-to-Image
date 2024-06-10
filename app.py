@@ -24,7 +24,7 @@ st.title("Text to Image Generator")
 pipe = load_pipeline()
 
 # User input
-prompt = st.text_input("Enter your prompt:", "Handsome photo of Babar Azam, lifelike, super highly detailed, professional digital painting, artstation, concept art, smooth, sharp focus, extreme illustration, Unreal Engine 5, Photorealism, HD quality, 8k")
+prompt = st.text_input("Enter your prompt:", "Pixar style little boy holding ice cream cone smiling super detailed unreal engine 5 realistic intricate elegant highly detailed digital painting artstation concept art by Mark Brooks and Brad Kunkle detailed")
 
 if st.button("Generate Image"):
     if pipe is None:
